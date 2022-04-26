@@ -11286,6 +11286,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+table, th, td {
+  border: 2px solid;
+  margin: 5px;
+  padding: 3px;
+}
+td, th {
+  padding: 10px;
+  text-align: center;
+}
 
 .CodeMirror {
   border: 1px solid #222;
@@ -11294,4 +11303,14 @@ textarea.form-control-lg {
 .CodeMirror-scroll {
   overflow-y: hidden;
   overflow-x: auto;
+}
+.error {
+	color:red;
+	transition:.5s;
+	overflow:hidden;
+	margin: 10px;
+}
+
+#output {
+	overflow: auto;
 }
